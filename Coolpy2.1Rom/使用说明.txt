@@ -1,0 +1,30 @@
+ROM版本号:V2.1
+
+
+CoolpyII2.1刷写rom说明
+1.把arduino m328p硬件连接到电脑
+2.安装驱动xp系统直接更新驱动到"usb驱动\FTDI USB Drivers"文件夹，比xp高级的系统直接更新驱动到"usb驱动"文件夹
+3.登陆http://www.microsoft.com/zh-cn/download/details.aspx?id=24872 下载并安装.net framework
+4.运行XLoader.exe文件
+5.Hex File选择同目录下的CoolpyII.cpp.hex
+6.Device选择你对应的硬件芯片
+7.COM port选择设备管理器中对应的COM端口号
+8.点击Upload即可刷写rom到硬件中
+
+CoolpyIIAir2.1刷写rom说明
+与CoolpyII2.1Rom刷写方法相同，第五步时选择CoolpyIIAir.cpp.hex即可
+(关于CoolpyAir是一个无线终端rom，有了它可以让Coolpy支持本地无线通信便利。目前支持APC220无线模块。)
+客户端=》CoolpyII2.1主硬件=>APC220=>CoolpyAir=>继电器，pwm，伺服电机，dht温湿传感器，IO等等...)
+----------------------------------------------------------------------------
+CoolpyII客户端使用说明
+确定rom已经刷好到你的arduino硬件后。即可以下操作直接实现智能控制
+1.找一个已经连接到国际互联网的路由器
+2.给arduino插上W5100芯片的扩展模块
+3.使用网线连接arduino W5100网口到路由器的任意lan端口
+4.打开浏览器输入网址：api.dyok.net
+5.把硬件地址输入路由器IP（如果你的路由器IP是192.168.1.1即硬件地址是：192.168.1.254）
+
+智能设备说明
+api.dyok.net可以直接通过任意支持html5通信技术的手机，平板，普通电脑等的浏览器直接控制CoolpyII
+1.使用智能手机或平板电脑时打开CoolpyII客户端建议使用UC浏览器，并不要开启“极速”模式。
+2.普通电脑请使用 360极速浏览器、谷歌浏览器、火狐浏览器、IE10或以上。
