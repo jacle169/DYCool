@@ -1,6 +1,0 @@
-C:\Users\jac\Desktop\CoolpyII2.1\CoolpyWeb\CoolpyMobileClient\bin\CoolpyMobileClient.dll.config
-C:\Users\jac\Desktop\CoolpyII2.1\CoolpyWeb\CoolpyMobileClient\bin\CoolpyMobileClient.dll
-C:\Users\jac\Desktop\CoolpyII2.1\CoolpyWeb\CoolpyMobileClient\bin\CoolpyMobileClient.pdb
-C:\Users\jac\Desktop\CoolpyII2.1\CoolpyWeb\CoolpyMobileClient\obj\Debug\CoolpyMobileClient.csprojResolveAssemblyReference.cache
-C:\Users\jac\Desktop\CoolpyII2.1\CoolpyWeb\CoolpyMobileClient\obj\Debug\CoolpyMobileClient.dll
-C:\Users\jac\Desktop\CoolpyII2.1\CoolpyWeb\CoolpyMobileClient\obj\Debug\CoolpyMobileClient.pdb
