@@ -1,0 +1,21 @@
+c:\users\jac\documents\visual studio 2012\Projects\CoolpyWeb\CoolpyWeb\bin\CoolpyWeb.dll
+c:\users\jac\documents\visual studio 2012\Projects\CoolpyWeb\CoolpyWeb\bin\CoolpyWeb.pdb
+c:\users\jac\documents\visual studio 2012\Projects\CoolpyWeb\CoolpyWeb\obj\Debug\CoolpyWeb.csprojResolveAssemblyReference.cache
+c:\users\jac\documents\visual studio 2012\Projects\CoolpyWeb\CoolpyWeb\obj\Debug\CoolpyWeb.dll
+c:\users\jac\documents\visual studio 2012\Projects\CoolpyWeb\CoolpyWeb\obj\Debug\CoolpyWeb.pdb
+C:\Users\jac\Desktop\CoolpyII\CoolpyWeb\CoolpyWeb\bin\CoolpyWeb.dll
+C:\Users\jac\Desktop\CoolpyII\CoolpyWeb\CoolpyWeb\bin\CoolpyWeb.pdb
+C:\Users\jac\Desktop\CoolpyII\CoolpyWeb\CoolpyWeb\obj\Debug\CoolpyWeb.csprojResolveAssemblyReference.cache
+C:\Users\jac\Desktop\CoolpyII\CoolpyWeb\CoolpyWeb\obj\Debug\CoolpyWeb.dll
+C:\Users\jac\Desktop\CoolpyII\CoolpyWeb\CoolpyWeb\obj\Debug\CoolpyWeb.pdb
+C:\Users\jac\Desktop\Coolpy\CoolpyII\CoolpyWeb\CoolpyWeb\bin\CoolpyWeb.dll
+C:\Users\jac\Desktop\Coolpy\CoolpyII\CoolpyWeb\CoolpyWeb\bin\CoolpyWeb.pdb
+C:\Users\jac\Desktop\Coolpy\CoolpyII\CoolpyWeb\CoolpyWeb\obj\Debug\CoolpyWeb.csprojResolveAssemblyReference.cache
+C:\Users\jac\Desktop\Coolpy\CoolpyII\CoolpyWeb\CoolpyWeb\obj\Debug\CoolpyWeb.dll
+C:\Users\jac\Desktop\Coolpy\CoolpyII\CoolpyWeb\CoolpyWeb\obj\Debug\CoolpyWeb.pdb
+C:\Users\jac\Desktop\CoolpyII2.1\CoolpyWeb\CoolpyWeb\bin\CoolpyWeb.dll
+C:\Users\jac\Desktop\CoolpyII2.1\CoolpyWeb\CoolpyWeb\bin\CoolpyWeb.pdb
+C:\Users\jac\Desktop\CoolpyII2.1\CoolpyWeb\CoolpyWeb\obj\Debug\CoolpyWeb.csprojResolveAssemblyReference.cache
+C:\Users\jac\Desktop\CoolpyII2.1\CoolpyWeb\CoolpyWeb\obj\Debug\CoolpyWeb.dll
+C:\Users\jac\Desktop\CoolpyII2.1\CoolpyWeb\CoolpyWeb\obj\Debug\CoolpyWeb.pdb
+C:\Users\jac\Desktop\CoolpyII2.1\CoolpyWeb\CoolpyWeb\bin\CoolpyWeb.dll.config

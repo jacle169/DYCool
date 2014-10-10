@@ -1,0 +1,239 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/kendo.common.min.css" rel="stylesheet" />
+    <link href="styles/kendo.default.min.css" rel="stylesheet" />
+    <link href="styles/kendo.mobile.all.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div data-role="view" id="drawer-home" data-layout="drawer-layout" data-title="登陆">
+        <ul data-role="listview" data-style="inset">
+            <li>
+                <label>
+                    访问密码：
+                    <input type="text" data-bind="value: pwd">
+                </label>
+            </li>
+            <li>
+                <label>
+                    硬件地址：
+                    <input type="text" data-bind="value: ip">
+                </label>
+            </li>
+            <li>
+                <label>
+                    <button data-bind="click: login">连接</button>
+                    <button id="bt_logout">断开连接</button>
+                </label>
+            </li>
+            <li>
+                <div id="debug"></div>
+            </li>
+        </ul>
+    </div>
+
+    <div data-role="view" id="drawer-starred" data-layout="drawer-layout" data-title="Starred Items">
+        <ul data-role="listview">
+            <li data-icon="star">Monday meeting</li>
+            <li data-icon="star">Regarding org chart changes</li>
+            <li data-icon="star">Re: Regarding org chart changes</li>
+            <li data-icon="star">Your Costume is ready</li>
+            <li data-icon="star">Out tonight?</li>
+        </ul>
+    </div>
+
+    <div data-role="view" id="drawer-drafts" data-layout="drawer-layout" data-title="Drafts">
+        <ul data-role="listview">
+            <li data-icon="compose">Re: Monday meeting</li>
+            <li data-icon="compose">Untitled message 1</li>
+            <li data-icon="compose">Untitled message 2</li>
+            <li data-icon="compose">Re: Regarding org chart changes</li>
+            <li data-icon="compose">Re: Re: Regarding org chart changes</li>
+            <li data-icon="compose">Re: Your Costume is ready</li>
+            <li data-icon="compose">Re: Out tonight?</li>
+            <li data-icon="compose">Untitled message 3</li>
+        </ul>
+    </div>
+
+    <div data-role="view" id="drawer-sent" data-layout="drawer-layout" data-title="Sent Items">
+        <ul data-role="listview">
+            <li>Build enterprise apps</li>
+            <li>Fw: Regarding Multiline textbox</li>
+            <li>Away next week</li>
+            <li>Fw: Your Costume is ready</li>
+            <li>Update completed</li>
+            <li>Survey</li>
+            <li>Problem with this account</li>
+            <li>Advice For Designers</li>
+            <li>Fw: Missing Book</li>
+            <li>Fun & useful reading</li>
+        </ul>
+    </div>
+
+    <div data-role="view" id="drawer-deleted" data-layout="drawer-layout" data-title="Deleted Items">
+        <ul data-role="listview">
+            <li data-icon="trash">Untitled message 4</li>
+            <li data-icon="trash">Untitled message 5</li>
+        </ul>
+    </div>
+
+    <div data-role="view" id="drawer-spam" data-layout="drawer-layout" data-title="Spam">
+        <ul data-role="listview">
+            <li>90% Discount!</li>
+            <li>90% Discount!</li>
+            <li>One time offer!</li>
+        </ul>
+        <a data-role="button" style="background-color: darkred; display: block; margin: 2em; font-size: 1.4em;">Delete Spam</a>
+    </div>
+
+    <div data-role="drawer" id="my-drawer" style="width: 270px" data-views="['drawer-home', 'drawer-starred', 'drawer-deleted', 'drawer-spam', 'drawer-drafts', 'drawer-sent', '/kendo-ui/mobile/m/drawer/index.html']">
+        <ul data-role="listview" data-type="group">
+            <li>
+                Mailbox
+                <ul>
+                    <li data-icon="inbox"><a href="#drawer-home" data-transition="none">Inbox</a></li>
+                    <li data-icon="star"><a href="#drawer-starred" data-transition="none">Starred Items</a></li>
+                    <li data-icon="compose"><a href="#" data-transition="none">Drafts</a></li>
+                    <li data-icon="sent"><a href="#" data-transition="none">Sent Items</a></li>
+                    <li data-icon="trash"><a href="#" data-transition="none">Deleted Items</a></li>
+                    <li data-icon="spam"><a href="#" data-transition="none">Spam</a></li>
+                </ul>
+            </li>
+            <li>
+                Tasks
+                <ul>
+                    <li>To Do</li>
+                    <li>In Progress</li>
+                    <li>Done</li>
+                    <li>High Priority</li>
+                    <li>Low Priority</li>
+                </ul>
+            </li>
+            <li>
+                Account
+                <ul>
+                    <li data-icon="settings">Settings</li>
+                    <li data-icon="off">Log Out</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div data-role="drawer" id="right-drawer" style="width: 80px" data-title="Share" data-position="right">
+        <header data-role="header">
+            <div data-role="navbar">
+                <span data-role="view-title"></span>
+            </div>
+        </header>
+        <img src="images/share.png" width="100%" />
+    </div>
+
+    <div data-role="layout" data-id="drawer-layout">
+        <header data-role="header">
+            <div data-role="navbar">
+                <a data-role="button" data-rel="drawer" href="#my-drawer" data-icon="drawer-button" data-align="left"></a>
+                <span data-role="view-title"></span>
+                <a data-role="button" data-rel="drawer" href="#right-drawer" data-icon="share" data-align="right"></a>
+            </div>
+        </header>
+        <!--<p>TabStrip</p>
+        <div data-role="footer">
+            <div data-role="tabstrip">
+                <a href="#drawer-sent" data-icon="contacts">
+                    Profile
+                </a><a href="#drawer-deleted" data-icon="history">
+                    Sales
+                </a>
+                <a href="#drawer-spam" data-icon="favorites">
+                    Rating
+                </a><a href="#drawer-drafts" data-icon="settings">Settings</a>
+            </div>
+        </div>-->
+    </div>
+
+    <script>
+        // reset global drawer instance, for demo purposes
+        //kendo.mobile.ui.Drawer.current = null;
+    </script>
+
+    <style>
+        .km-ios #my-drawer .km-content, .km-android #my-drawer .km-content, .km-blackberry #my-drawer .km-content,
+        .km-ios #my-drawer .km-list > li, .km-android #my-drawer .km-list > li, .km-blackberry #my-drawer .km-list > li,
+        .km-ios #my-drawer .km-listview-link > .km-icon, .km-android #my-drawer .km-listview-link > .km-icon, .km-blackberry #my-drawer .km-listview-link > .km-icon,
+        .km-ios #my-drawer .km-list li > .km-icon, .km-android #my-drawer .km-list li > .km-icon, .km-blackberry #my-drawer .km-list li > .km-icon {
+            background-color: #4e4e4e;
+            color: #fff;
+        }
+
+        .km-ios #my-drawer .km-group-title,
+        .km-blackberry #my-drawer .km-group-title {
+            background-color: #6e6e6e;
+            color: #fff;
+        }
+
+        .km-drawer-button:before, .km-drawer-button:after {
+            content: "\E077";
+        }
+
+        .km-inbox:before, .km-inbox:after {
+            content: "\E0B0";
+        }
+
+        .km-sent:before, .km-sent:after {
+            content: "\E0C6";
+        }
+
+        .km-trash:before, .km-trash:after {
+            content: "\E0C3";
+        }
+
+        .km-spam:before, .km-spam:after {
+            content: "\E0C5";
+        }
+
+        .km-star:before, .km-star:after {
+            content: "\E0D7";
+        }
+
+        .km-settings:before, .km-settings:after {
+            content: "\E0DA";
+        }
+
+        .km-off:before, .km-off:after {
+            content: "\E0B9";
+        }
+
+        .inboxList {
+            font-size: .8em;
+        }
+
+            .inboxList p,
+            .inboxList h2,
+            .inboxList h3 {
+                margin: 5px 2px;
+            }
+
+            .inboxList p,
+            .inboxList h3 {
+                color: #777;
+            }
+
+                .inboxList h3.time {
+                    color: #369;
+                    float: left;
+                    margin-right: 10px;
+                }
+    </style>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/modernizr-2.6.2.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/kendo.all.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+        var app = new kendo.mobile.Application(document.body);
+    </script>
+   
+</body>
+</html>
