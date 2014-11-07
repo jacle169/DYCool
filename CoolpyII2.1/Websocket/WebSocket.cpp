@@ -140,6 +140,9 @@ bool WebSocket::doHandshake() {
 		client.print("HTTP/1.1 101 Switching Protocols\r\n");
 		client.print("Upgrade: websocket\r\n");
 		client.print("Connection: Upgrade\r\n");
+                client.print("Sec-WebSocket-Protocol: ");
+		client.print(auth);
+                client.print("\r\n");
 		client.print("Sec-WebSocket-Accept: ");
 		client.print(temp);
 		client.print(CRLF);

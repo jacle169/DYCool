@@ -19,3 +19,9 @@ C:\Users\jac\Desktop\CoolpyII2.1\CoolpyWeb\CoolpyWeb\obj\Debug\CoolpyWeb.csprojR
 C:\Users\jac\Desktop\CoolpyII2.1\CoolpyWeb\CoolpyWeb\obj\Debug\CoolpyWeb.dll
 C:\Users\jac\Desktop\CoolpyII2.1\CoolpyWeb\CoolpyWeb\obj\Debug\CoolpyWeb.pdb
 C:\Users\jac\Desktop\CoolpyII2.1\CoolpyWeb\CoolpyWeb\bin\CoolpyWeb.dll.config
+J:\桌面2014-09-12\CoolpyII2.1\CoolpyWeb\CoolpyWeb\bin\CoolpyWeb.dll.config
+J:\桌面2014-09-12\CoolpyII2.1\CoolpyWeb\CoolpyWeb\bin\CoolpyWeb.dll
+J:\桌面2014-09-12\CoolpyII2.1\CoolpyWeb\CoolpyWeb\bin\CoolpyWeb.pdb
+J:\桌面2014-09-12\CoolpyII2.1\CoolpyWeb\CoolpyWeb\obj\Debug\CoolpyWeb.csprojResolveAssemblyReference.cache
+J:\桌面2014-09-12\CoolpyII2.1\CoolpyWeb\CoolpyWeb\obj\Debug\CoolpyWeb.dll
+J:\桌面2014-09-12\CoolpyII2.1\CoolpyWeb\CoolpyWeb\obj\Debug\CoolpyWeb.pdb
