@@ -14,7 +14,7 @@ byte rindex = 0; // Index into array; where to store the character
 String mds[4];
 String instr;
 
-String clientId="air1";
+String clientId="air2";
 
 void setup() {
     Serial.begin(9600);
@@ -144,7 +144,7 @@ void onData(char* dataString){
    play(charBuf);
   }
   }else {
-     play("un kown");
+     //play("un kown");
   }
 }
 

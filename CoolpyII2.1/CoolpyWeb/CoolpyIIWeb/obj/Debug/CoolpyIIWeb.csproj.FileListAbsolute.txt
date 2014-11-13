@@ -1,0 +1,6 @@
+D:\jacob\CoolpyII2.1\CoolpyWeb\CoolpyIIWeb\bin\CoolpyIIWeb.dll.config
+D:\jacob\CoolpyII2.1\CoolpyWeb\CoolpyIIWeb\bin\CoolpyIIWeb.dll
+D:\jacob\CoolpyII2.1\CoolpyWeb\CoolpyIIWeb\bin\CoolpyIIWeb.pdb
+D:\jacob\CoolpyII2.1\CoolpyWeb\CoolpyIIWeb\obj\Debug\CoolpyIIWeb.csprojResolveAssemblyReference.cache
+D:\jacob\CoolpyII2.1\CoolpyWeb\CoolpyIIWeb\obj\Debug\CoolpyIIWeb.dll
+D:\jacob\CoolpyII2.1\CoolpyWeb\CoolpyIIWeb\obj\Debug\CoolpyIIWeb.pdb

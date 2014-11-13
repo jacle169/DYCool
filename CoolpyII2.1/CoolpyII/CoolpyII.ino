@@ -56,7 +56,7 @@ void loop() {
    rf=0;
    wsServer.listen();
   }else{
-    if(rf >= 400){
+    if(rf >= 400*50){
      rf =0;
      wsServer.send("refresh", 7);
      if(!wsServer.isConnected()){
@@ -64,7 +64,6 @@ void loop() {
      }
     }
     wsServer.doGetFrame(); 
-    
     ////serial connection
     if(Serial.available()){
       inChar = Serial.read(); // Read a character
@@ -81,7 +80,7 @@ void loop() {
       }
     }  
   }
-  delay(50);
+  delay(1);
   rf++;
 }
 
